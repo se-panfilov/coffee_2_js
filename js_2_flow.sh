@@ -43,7 +43,10 @@ done;
 
 printf "${GREEN}STEP 2: Add  types into functions... done${NC}\n";
 
-printf "${GREEN}STEP 2: ESLINT fixes...${NC}\n";
+printf "${GREEN}STEP 3: ESLINT fixes...${NC}\n";
 cd ../../
 npm run lint:fix;
-printf "${GREEN}STEP 2: ESLINT fixes... done.${NC}\n";
+printf "${GREEN}STEP 3: ESLINT fixes... done.${NC}\n";
+
+
+printf "${GREEN}JS 2 Flow done!${NC}\n";

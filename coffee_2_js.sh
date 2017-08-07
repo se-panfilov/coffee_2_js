@@ -120,3 +120,5 @@ printf "${GREEN}STEP 8: ESLINT fixes... test folder... ${NC}\n";
 cd ../
 npm run lint:fix:test;
 printf "${GREEN}STEP 8: ESLINT fixes... test folder... done.${NC}\n";
+
+printf "${GREEN}Coffee 2 JS done!${NC}\n";
