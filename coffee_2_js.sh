@@ -5,9 +5,9 @@ NC='\033[0m' # No Color
 
 printf "${GREEN}SKIP... STEP 1: Installation${NC}\n";
 
-#printf "${GREEN}STEP 1: Installation...${NC}\n";
-#npm i -g depercolator && npm i -g decaffeinate &&
-#printf "${GREEN}STEP 1: Installation... done.${NC}\n";
+printf "${GREEN}STEP 1: Installation...${NC}\n";
+npm i -g depercolator && npm i -g decaffeinate &&
+printf "${GREEN}STEP 1: Installation... done.${NC}\n";
 
 cd ./app/scripts/ &&
 
